@@ -1,5 +1,6 @@
 import streamlit as st
 import requests
+import streamlit as st
 import json     
 import time
 import os
@@ -113,5 +114,9 @@ if st.session_state.flag:
     if prompt :
         # Add user message to chat history
         st.session_state.messages.append({"role": "user", "content": prompt})
+        with st.chat_message("user"):
+            st.markdown(prompt)
+        with st.chat_message("assistant"):
+            st.markdown("Thinking...")
         send_message(prompt)
         st.rerun()
