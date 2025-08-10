@@ -20,6 +20,17 @@ This project uses the **Google Agent Development Kit** as the AI framework.
 - `answer_query` – Answers a user query by searching inside a collection.
 - `delete_file_from_collection` – Deletes a file from a collection.
 
+
+## Installing Dependencies
+
+Before running the project, install all required Python packages.
+
+### Option 1: Install directly
+Run the following commands:
+```bash
+pip install -r requirements.txt
+```
+
 ## Setup & Execution
 
 ### 1. Create Environment Variables
@@ -37,8 +48,7 @@ adk api_server
 This will start the FastAPI server locally.
 
 ### 3. Launch the Streamlit Interface
-```
-bash
+```bash
 streamlit run stream.py
 ```
 ## This will open a web interface where you can interact with the RAG Agent.
