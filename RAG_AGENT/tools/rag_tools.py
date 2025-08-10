@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer
 import chromadb
 
 # Path to the ChromaDB database
-CHROMA_PATH= "C:\\Users\\admin\\OneDrive\\Desktop\\Google-adk\\RAG_AGENT\\database\\simpleDB"
+CHROMA_PATH= "DB_PATH"
 
 
 #Function to list collections in vectorDB
