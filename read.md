@@ -25,7 +25,6 @@ This project uses the **Google Agent Development Kit** as the AI framework.
 
 Before running the project, install all required Python packages.
 
-### Option 1: Install directly
 Run the following commands:
 ```bash
 pip install -r requirements.txt
