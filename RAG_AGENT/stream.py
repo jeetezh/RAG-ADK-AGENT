@@ -1,6 +1,5 @@
 import streamlit as st
 import requests
-import streamlit as st
 import json     
 import time
 import os
